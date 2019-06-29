@@ -83,8 +83,8 @@ def chooseBestFeature(dataSet,ycol='', types='Gini'):
             feaGini += (sublen1 / numTotal) * calcGini(subDataSet1,ycol) + (sublen2 / numTotal) * calcGini(subDataSet2,ycol)
             columnFeaGini['%s_%s' % (col, value)] = feaGini * bestFlag
     if len(columnFeaGini)==0:
-        bestFeature=''
-    bestFeature = min(columnFeaGini, key=columnFeaGini.get)  # 找到最小的Gini指数益对应的数据列
+        bestFeature='_'.join(x_cols)
+    else: bestFeature = min(columnFeaGini, key=columnFeaGini.get)  # 找到最小的Gini指数益对应的数据列
 
     return bestFeature, to_drop
 
@@ -108,6 +108,10 @@ def createTree(dataSet,ycol='', types='Gini'):
 
     # 3、否则，按CART算法就计算特征集A中各特征对数据集D的Gini，选择Gini指数最小的特征bestFeature（Ag）进行划分
     bestFeature, to_drop = chooseBestFeature(dataSet,ycol, types)
+    if len(dataSet.columns) ==len(to_drop):
+        labelCount = {}
+        labelCount = dict(Counter(y_lables))
+        return max(labelCount, key=labelCount.get)
     dataSet=dataSet.drop(to_drop,axis=1)
     # bestFeatureLable = bestFeature.split('_')[0]  # 最佳特征
     bestFeatureName,colVal=bestFeature.split('_')
