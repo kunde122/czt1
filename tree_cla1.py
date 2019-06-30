@@ -108,7 +108,7 @@ def createTree(dataSet,ycol='', types='Gini'):
 
     # 3、否则，按CART算法就计算特征集A中各特征对数据集D的Gini，选择Gini指数最小的特征bestFeature（Ag）进行划分
     bestFeature, to_drop = chooseBestFeature(dataSet,ycol, types)
-    if len(dataSet.columns) ==len(to_drop):
+    if len(dataSet.columns) -1==len(to_drop):
         labelCount = {}
         labelCount = dict(Counter(y_lables))
         return max(labelCount, key=labelCount.get)
@@ -120,7 +120,10 @@ def createTree(dataSet,ycol='', types='Gini'):
     # del (features[int(bestFeature.split('_')[0])])  # 该特征已最为子节点使用，则删除，以便接下来继续构建子树
 
     # 使用beatFeature进行划分，划分产生2各节点，成树T，返回T
-    y_lables_split = dataSet.loc[dataSet[bestFeatureName] == colVal][ycol]  # 获取按此划分后y数据列表
+    try:
+        y_lables_split = dataSet.loc[dataSet[bestFeatureName] == colVal][ycol]  # 获取按此划分后y数据列表
+    except Exception:
+        print(1)
     y_lables_grp = dict(Counter(y_lables_split.values))  # 统计最优划分应该属于哪个i叶子节点“是”、“否”
     y_leaf = max(y_lables_grp, key=y_lables_grp.get)  # 获得划分后出现概率最大的y分类
     print('feature:{},value:{},node_class:{}'.format(bestFeatureName,colVal,y_leaf))
