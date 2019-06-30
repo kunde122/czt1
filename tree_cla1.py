@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
+import copy
 from collections import Counter
 
 matplotlib.rcParams['font.family'] = 'SimHei'  # 用来正常显示中文
@@ -89,34 +90,48 @@ def chooseBestFeature(dataSet,ycol='', types='Gini'):
     return bestFeature, to_drop
 
 
-def createTree(dataSet,ycol='', types='Gini'):
+def createTree(dataSet,current_depth,max_depth,ycol='', types='Gini'):
     """
     输入：训练数据集D，特征集A，阈值ε
     输出：决策树T
     """
-    y_lables = np.unique(dataSet[ycol])
 
+    y_lables_grp = dict(Counter(dataSet[ycol].values))  # 统计最优划分应该属于哪个i叶子节点“是”、“否”
+    y_leaf = max(y_lables_grp, key=y_lables_grp.get)
+    decisionTree = {'value': 0, 'node_class': 0}  # 构建树，以Gini指数最小的特征bestFeature为子节点
+    decisionTree['node_class'] = y_leaf
     # 1、如果数据集D中的所有实例都属于同一类label（Ck），则T为单节点树，并将类label（Ck）作为该结点的类标记，返回T
-    if len(set(y_lables)) == 1:
-        return y_lables[0]
+    y_lables = np.unique(dataSet[ycol])
+    if len(set(y_lables)) == 1 or current_depth >= max_depth or len(dataSet.columns) <= 2:
+        decisionTree['value'] = None
+        xcols=dataSet.columns.tolist()
+        xcols.remove(ycol)
+        decisionTree['feature'] = '_'.join(xcols)
+        decisionTree['equal'] = None
+        decisionTree['un_equal'] = None
+        return decisionTree
 
     # 2、若特征集A=空，则T为单节点，并将数据集D中实例树最大的类label（Ck）作为该节点的类标记，返回T
-    if len(dataSet.columns) <= 2:
-        labelCount = {}
-        labelCount = dict(Counter(y_lables))
-        return max(labelCount, key=labelCount.get)
+    # if len(dataSet.columns) <= 2:
+    #     labelCount = {}
+    #     labelCount = dict(Counter(y_lables))
+    #     return decisionTree
 
     # 3、否则，按CART算法就计算特征集A中各特征对数据集D的Gini，选择Gini指数最小的特征bestFeature（Ag）进行划分
     bestFeature, to_drop = chooseBestFeature(dataSet,ycol, types)
-    if len(dataSet.columns) -1==len(to_drop):
-        labelCount = {}
-        labelCount = dict(Counter(y_lables))
-        return max(labelCount, key=labelCount.get)
+    if len(dataSet.columns) -2<=len(to_drop):
+        decisionTree['value'] = None
+        xcols = dataSet.columns.tolist()
+        xcols.remove(ycol)
+        decisionTree['feature'] = '_'.join(xcols)
+        decisionTree['equal'] = None
+        decisionTree['un_equal'] = None
+        return decisionTree
     dataSet=dataSet.drop(to_drop,axis=1)
     # bestFeatureLable = bestFeature.split('_')[0]  # 最佳特征
     bestFeatureName,colVal=bestFeature.split('_')
 
-    decisionTree = {'value':0,'node_class':0}  # 构建树，以Gini指数最小的特征bestFeature为子节点
+
     # del (features[int(bestFeature.split('_')[0])])  # 该特征已最为子节点使用，则删除，以便接下来继续构建子树
 
     # 使用beatFeature进行划分，划分产生2各节点，成树T，返回T
@@ -126,12 +141,12 @@ def createTree(dataSet,ycol='', types='Gini'):
         print(1)
     y_lables_grp = dict(Counter(y_lables_split.values))  # 统计最优划分应该属于哪个i叶子节点“是”、“否”
     y_leaf = max(y_lables_grp, key=y_lables_grp.get)  # 获得划分后出现概率最大的y分类
-    print('feature:{},value:{},node_class:{}'.format(bestFeatureName,colVal,y_leaf))
+    print('feature:{},value:{},node_class:{},current_depth:{}'.format(bestFeatureName,colVal,y_leaf,current_depth))
     decisionTree['node_class'] = y_leaf
     decisionTree['value']=colVal
     decisionTree['feature']=bestFeatureName
-    decisionTree['equal']=createTree(dataSet.loc[dataSet[bestFeatureName] == colVal].drop([bestFeatureName],axis=1),ycol,types)
-    decisionTree['un_equal'] = createTree(dataSet.loc[dataSet[bestFeatureName] != colVal],ycol,types)
+    decisionTree['equal']=createTree(dataSet.loc[dataSet[bestFeatureName] == colVal].drop([bestFeatureName],axis=1),current_depth+1,max_depth,ycol,types)
+    decisionTree['un_equal'] = createTree(dataSet.loc[dataSet[bestFeatureName] != colVal],current_depth+1,max_depth,ycol,types)
 
 
     # 4、删除此最优划分数据x列，使用其他x列数据，递归地调用步1-3，得到子树Ti，返回Ti
@@ -140,6 +155,24 @@ def createTree(dataSet,ycol='', types='Gini'):
     # 判断右枝类型，划分后的左右枝“是”、“否”是不一定的，所以这里进行判断
     return decisionTree
 
+
+def print_tree(mytree,cond=[]):
+    feature=mytree['feature']
+    value=mytree['value']
+    if mytree['equal']:
+
+        tmp_cond=copy.deepcopy(cond)
+        tmp_cond.append((feature, '{}'.format(value)))
+        print_tree(mytree['equal'],tmp_cond)
+
+    if mytree['un_equal']:
+        tmp_cond = copy.deepcopy(cond)
+        tmp_cond.append((feature,'not_{}'.format(value)))
+        print_tree(mytree['un_equal'],tmp_cond)
+    if not mytree['equal'] and not mytree['un_equal']:
+        print('features:------------------------')
+        print(cond)
+        print('node_class:{}'.format(mytree['node_class']))
 
 ####以下是用来画图的完全复制的《机器学习实战》第三章的内容，不感兴趣的可以略过#############################################
 def getNumLeafs(myTree):
@@ -232,7 +265,8 @@ if __name__ == "__main__":
     # bestFeature, columnFeaGini = chooseBestFeature(dataSet,'KJYWZB_CUT', 'Gini')
     # print('\nbestFeature:', bestFeature, '\nGini(D,A):', columnFeaGini)
 
-    dt_Gini = createTree(dataSet, 'KJYWZB_CUT', 'Gini')  # 建立决策树，CART分类树
+    dt_Gini = createTree(dataSet,0,15, 'KJYWZB_CUT', 'Gini')  # 建立决策树，CART分类树
+    print_tree(dt_Gini)
     print('CART分类树：\n', dt_Gini)
 
     # 画出决策树

@@ -105,17 +105,20 @@ class Analyse():
 
     def tree_regressor(self,X_train,y_train):
         from sklearn.tree import DecisionTreeClassifier,export_graphviz
+        from sklearn.model_selection import train_test_split
+        X_train, map_save = self.convert_to_num(X_train, cols=['adrg', 'NL'])
+        X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.25, random_state=33)
         import pydotplus
         from sklearn.externals.six import StringIO
         X_train,map_save=self.convert_to_num(X_train,cols=['adrg','NL'])
 
         clf = DecisionTreeClassifier(splitter='best')
         clf.fit(X_train, y_train)
-
         print("train score:", clf.score(X_train, y_train))
+        print("test score:", clf.score(X_test, y_test))
 
         with open("./tmp/tree1.dot", 'w') as f:
-            f = export_graphviz(clf, feature_names=X_train.columns.tolist(),max_depth=3, out_file=f)  # 输出结果至文件
+            f = export_graphviz(clf, feature_names=X_train.columns.tolist(),max_depth=10, out_file=f)  # 输出结果至文件
         from graphviz import Source
         # graph = Source(export_graphviz(clf, out_file='./tmp/tree.dot', feature_names=X_train.columns.tolist()))
         # graph.format = 'png'
@@ -185,7 +188,6 @@ if __name__=="__main__":
 
     data=analyse.group_by_cluster(data,y_col,5)
     data = data.drop(['createTime'], axis=1)
-
     data['NL']=list(pd.cut(data['NL'].values,bins=[-1, 6, 17, 40, 65, 130] , labels=[u"童年", u"少年", u"青年", u"中年", u"老年"]))
     # data=data.ix[:2000,[0,1,2,3]]
     # data['LYFS']=data['LYFS'].astype(int)
@@ -196,6 +198,11 @@ if __name__=="__main__":
 
     cols.remove('KJYWZB')
     cols.remove('KJYWZB_CUT')
+    cols.remove('medicine')
+    # cols.remove('LYFS')
+    # cols.remove('QKDJ1')
+    # cols.remove('QKYHLB1')
+    cols.remove('grade')
     X = data[cols]
     y = data.KJYWZB_CUT
     cla=analyse.tree_regressor(X,y)
