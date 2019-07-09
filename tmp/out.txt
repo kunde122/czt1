@@ -1,0 +1,2744 @@
+DO IF(adrg='FF2').
+compute adrg_FF2=1.
+ELSE.
+compute adrg_FF2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RA1').
+compute adrg_RA1=1.
+ELSE.
+compute adrg_RA1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RE1').
+compute adrg_RE1=1.
+ELSE.
+compute adrg_RE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IR2').
+compute adrg_IR2=1.
+ELSE.
+compute adrg_IR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QT1').
+compute adrg_QT1=1.
+ELSE.
+compute adrg_QT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IT3').
+compute adrg_IT3=1.
+ELSE.
+compute adrg_IT3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DT1').
+compute adrg_DT1=1.
+ELSE.
+compute adrg_DT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LE1').
+compute adrg_LE1=1.
+ELSE.
+compute adrg_LE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KD2').
+compute adrg_KD2=1.
+ELSE.
+compute adrg_KD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CJ1').
+compute adrg_CJ1=1.
+ELSE.
+compute adrg_CJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='WZ1').
+compute adrg_WZ1=1.
+ELSE.
+compute adrg_WZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HC1').
+compute adrg_HC1=1.
+ELSE.
+compute adrg_HC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JC1').
+compute adrg_JC1=1.
+ELSE.
+compute adrg_JC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MZ1').
+compute adrg_MZ1=1.
+ELSE.
+compute adrg_MZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EB1').
+compute adrg_EB1=1.
+ELSE.
+compute adrg_EB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IS1').
+compute adrg_IS1=1.
+ELSE.
+compute adrg_IS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HD3').
+compute adrg_HD3=1.
+ELSE.
+compute adrg_HD3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VT1').
+compute adrg_VT1=1.
+ELSE.
+compute adrg_VT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NE1').
+compute adrg_NE1=1.
+ELSE.
+compute adrg_NE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FQ2').
+compute adrg_FQ2=1.
+ELSE.
+compute adrg_FQ2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HU1').
+compute adrg_HU1=1.
+ELSE.
+compute adrg_HU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OD2').
+compute adrg_OD2=1.
+ELSE.
+compute adrg_OD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LJ1').
+compute adrg_LJ1=1.
+ELSE.
+compute adrg_LJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CD1').
+compute adrg_CD1=1.
+ELSE.
+compute adrg_CD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='SB1').
+compute adrg_SB1=1.
+ELSE.
+compute adrg_SB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RF1').
+compute adrg_RF1=1.
+ELSE.
+compute adrg_RF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LT1').
+compute adrg_LT1=1.
+ELSE.
+compute adrg_LT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CR1').
+compute adrg_CR1=1.
+ELSE.
+compute adrg_CR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KC2').
+compute adrg_KC2=1.
+ELSE.
+compute adrg_KC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BT2').
+compute adrg_BT2=1.
+ELSE.
+compute adrg_BT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FS3').
+compute adrg_FS3=1.
+ELSE.
+compute adrg_FS3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BF1').
+compute adrg_BF1=1.
+ELSE.
+compute adrg_BF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BZ1').
+compute adrg_BZ1=1.
+ELSE.
+compute adrg_BZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OD1').
+compute adrg_OD1=1.
+ELSE.
+compute adrg_OD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DG1').
+compute adrg_DG1=1.
+ELSE.
+compute adrg_DG1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OC2').
+compute adrg_OC2=1.
+ELSE.
+compute adrg_OC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BE1').
+compute adrg_BE1=1.
+ELSE.
+compute adrg_BE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MA1').
+compute adrg_MA1=1.
+ELSE.
+compute adrg_MA1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LV1').
+compute adrg_LV1=1.
+ELSE.
+compute adrg_LV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GJ1').
+compute adrg_GJ1=1.
+ELSE.
+compute adrg_GJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IR5').
+compute adrg_IR5=1.
+ELSE.
+compute adrg_IR5=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OS2').
+compute adrg_OS2=1.
+ELSE.
+compute adrg_OS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OB1').
+compute adrg_OB1=1.
+ELSE.
+compute adrg_OB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KF1').
+compute adrg_KF1=1.
+ELSE.
+compute adrg_KF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IS2').
+compute adrg_IS2=1.
+ELSE.
+compute adrg_IS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IS3').
+compute adrg_IS3=1.
+ELSE.
+compute adrg_IS3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NC1').
+compute adrg_NC1=1.
+ELSE.
+compute adrg_NC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FF3').
+compute adrg_FF3=1.
+ELSE.
+compute adrg_FF3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IC2').
+compute adrg_IC2=1.
+ELSE.
+compute adrg_IC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FW1').
+compute adrg_FW1=1.
+ELSE.
+compute adrg_FW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BK1').
+compute adrg_BK1=1.
+ELSE.
+compute adrg_BK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DL1').
+compute adrg_DL1=1.
+ELSE.
+compute adrg_DL1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OS1').
+compute adrg_OS1=1.
+ELSE.
+compute adrg_OS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='AG2').
+compute adrg_AG2=1.
+ELSE.
+compute adrg_AG2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DW1').
+compute adrg_DW1=1.
+ELSE.
+compute adrg_DW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FJ1').
+compute adrg_FJ1=1.
+ELSE.
+compute adrg_FJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FS1').
+compute adrg_FS1=1.
+ELSE.
+compute adrg_FS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JA2').
+compute adrg_JA2=1.
+ELSE.
+compute adrg_JA2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FS2').
+compute adrg_FS2=1.
+ELSE.
+compute adrg_FS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ER2').
+compute adrg_ER2=1.
+ELSE.
+compute adrg_ER2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DK1').
+compute adrg_DK1=1.
+ELSE.
+compute adrg_DK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='SU1').
+compute adrg_SU1=1.
+ELSE.
+compute adrg_SU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JU1').
+compute adrg_JU1=1.
+ELSE.
+compute adrg_JU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DX1').
+compute adrg_DX1=1.
+ELSE.
+compute adrg_DX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HR1').
+compute adrg_HR1=1.
+ELSE.
+compute adrg_HR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MK1').
+compute adrg_MK1=1.
+ELSE.
+compute adrg_MK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NF1').
+compute adrg_NF1=1.
+ELSE.
+compute adrg_NF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='AB1').
+compute adrg_AB1=1.
+ELSE.
+compute adrg_AB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CW1').
+compute adrg_CW1=1.
+ELSE.
+compute adrg_CW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IC3').
+compute adrg_IC3=1.
+ELSE.
+compute adrg_IC3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FL2').
+compute adrg_FL2=1.
+ELSE.
+compute adrg_FL2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DB1').
+compute adrg_DB1=1.
+ELSE.
+compute adrg_DB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NR1').
+compute adrg_NR1=1.
+ELSE.
+compute adrg_NR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BR3').
+compute adrg_BR3=1.
+ELSE.
+compute adrg_BR3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NJ1').
+compute adrg_NJ1=1.
+ELSE.
+compute adrg_NJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MB1').
+compute adrg_MB1=1.
+ELSE.
+compute adrg_MB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JT1').
+compute adrg_JT1=1.
+ELSE.
+compute adrg_JT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LK1').
+compute adrg_LK1=1.
+ELSE.
+compute adrg_LK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XT2').
+compute adrg_XT2=1.
+ELSE.
+compute adrg_XT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FC2').
+compute adrg_FC2=1.
+ELSE.
+compute adrg_FC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KR1').
+compute adrg_KR1=1.
+ELSE.
+compute adrg_KR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='SV1').
+compute adrg_SV1=1.
+ELSE.
+compute adrg_SV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FM2').
+compute adrg_FM2=1.
+ELSE.
+compute adrg_FM2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PU1').
+compute adrg_PU1=1.
+ELSE.
+compute adrg_PU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FV1').
+compute adrg_FV1=1.
+ELSE.
+compute adrg_FV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JR2').
+compute adrg_JR2=1.
+ELSE.
+compute adrg_JR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GR1').
+compute adrg_GR1=1.
+ELSE.
+compute adrg_GR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LB1').
+compute adrg_LB1=1.
+ELSE.
+compute adrg_LB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ER1').
+compute adrg_ER1=1.
+ELSE.
+compute adrg_ER1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TT3').
+compute adrg_TT3=1.
+ELSE.
+compute adrg_TT3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VR1').
+compute adrg_VR1=1.
+ELSE.
+compute adrg_VR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JD2').
+compute adrg_JD2=1.
+ELSE.
+compute adrg_JD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GK3').
+compute adrg_GK3=1.
+ELSE.
+compute adrg_GK3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NS1').
+compute adrg_NS1=1.
+ELSE.
+compute adrg_NS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LS1').
+compute adrg_LS1=1.
+ELSE.
+compute adrg_LS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QB1').
+compute adrg_QB1=1.
+ELSE.
+compute adrg_QB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HC2').
+compute adrg_HC2=1.
+ELSE.
+compute adrg_HC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XS2').
+compute adrg_XS2=1.
+ELSE.
+compute adrg_XS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FE4').
+compute adrg_FE4=1.
+ELSE.
+compute adrg_FE4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BX1').
+compute adrg_BX1=1.
+ELSE.
+compute adrg_BX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LC1').
+compute adrg_LC1=1.
+ELSE.
+compute adrg_LC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BE2').
+compute adrg_BE2=1.
+ELSE.
+compute adrg_BE2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BV3').
+compute adrg_BV3=1.
+ELSE.
+compute adrg_BV3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LX1').
+compute adrg_LX1=1.
+ELSE.
+compute adrg_LX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QR1').
+compute adrg_QR1=1.
+ELSE.
+compute adrg_QR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ZJ1').
+compute adrg_ZJ1=1.
+ELSE.
+compute adrg_ZJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HK1').
+compute adrg_HK1=1.
+ELSE.
+compute adrg_HK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CT1').
+compute adrg_CT1=1.
+ELSE.
+compute adrg_CT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FW2').
+compute adrg_FW2=1.
+ELSE.
+compute adrg_FW2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IF2').
+compute adrg_IF2=1.
+ELSE.
+compute adrg_IF2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EZ1').
+compute adrg_EZ1=1.
+ELSE.
+compute adrg_EZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XR1').
+compute adrg_XR1=1.
+ELSE.
+compute adrg_XR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QD1').
+compute adrg_QD1=1.
+ELSE.
+compute adrg_QD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DA1').
+compute adrg_DA1=1.
+ELSE.
+compute adrg_DA1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GF1').
+compute adrg_GF1=1.
+ELSE.
+compute adrg_GF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='YR1').
+compute adrg_YR1=1.
+ELSE.
+compute adrg_YR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OD3').
+compute adrg_OD3=1.
+ELSE.
+compute adrg_OD3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PT1').
+compute adrg_PT1=1.
+ELSE.
+compute adrg_PT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FK1').
+compute adrg_FK1=1.
+ELSE.
+compute adrg_FK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OJ1').
+compute adrg_OJ1=1.
+ELSE.
+compute adrg_OJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IZ2').
+compute adrg_IZ2=1.
+ELSE.
+compute adrg_IZ2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GV1').
+compute adrg_GV1=1.
+ELSE.
+compute adrg_GV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EC1').
+compute adrg_EC1=1.
+ELSE.
+compute adrg_EC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='UR1').
+compute adrg_UR1=1.
+ELSE.
+compute adrg_UR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EB2').
+compute adrg_EB2=1.
+ELSE.
+compute adrg_EB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VJ1').
+compute adrg_VJ1=1.
+ELSE.
+compute adrg_VJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CZ1').
+compute adrg_CZ1=1.
+ELSE.
+compute adrg_CZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PS1').
+compute adrg_PS1=1.
+ELSE.
+compute adrg_PS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FD2').
+compute adrg_FD2=1.
+ELSE.
+compute adrg_FD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IJ1').
+compute adrg_IJ1=1.
+ELSE.
+compute adrg_IJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CB1').
+compute adrg_CB1=1.
+ELSE.
+compute adrg_CB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MD1').
+compute adrg_MD1=1.
+ELSE.
+compute adrg_MD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='SS1').
+compute adrg_SS1=1.
+ELSE.
+compute adrg_SS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='YR2').
+compute adrg_YR2=1.
+ELSE.
+compute adrg_YR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GX1').
+compute adrg_GX1=1.
+ELSE.
+compute adrg_GX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TS1').
+compute adrg_TS1=1.
+ELSE.
+compute adrg_TS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MS1').
+compute adrg_MS1=1.
+ELSE.
+compute adrg_MS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QJ1').
+compute adrg_QJ1=1.
+ELSE.
+compute adrg_QJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VD1').
+compute adrg_VD1=1.
+ELSE.
+compute adrg_VD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CU1').
+compute adrg_CU1=1.
+ELSE.
+compute adrg_CU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VS2').
+compute adrg_VS2=1.
+ELSE.
+compute adrg_VS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RK1').
+compute adrg_RK1=1.
+ELSE.
+compute adrg_RK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DE1').
+compute adrg_DE1=1.
+ELSE.
+compute adrg_DE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GE2').
+compute adrg_GE2=1.
+ELSE.
+compute adrg_GE2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BV1').
+compute adrg_BV1=1.
+ELSE.
+compute adrg_BV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KV1').
+compute adrg_KV1=1.
+ELSE.
+compute adrg_KV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CD2').
+compute adrg_CD2=1.
+ELSE.
+compute adrg_CD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BB1').
+compute adrg_BB1=1.
+ELSE.
+compute adrg_BB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FC3').
+compute adrg_FC3=1.
+ELSE.
+compute adrg_FC3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FZ1').
+compute adrg_FZ1=1.
+ELSE.
+compute adrg_FZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IG1').
+compute adrg_IG1=1.
+ELSE.
+compute adrg_IG1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HD1').
+compute adrg_HD1=1.
+ELSE.
+compute adrg_HD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='YC2').
+compute adrg_YC2=1.
+ELSE.
+compute adrg_YC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DG3').
+compute adrg_DG3=1.
+ELSE.
+compute adrg_DG3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EU1').
+compute adrg_EU1=1.
+ELSE.
+compute adrg_EU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LA1').
+compute adrg_LA1=1.
+ELSE.
+compute adrg_LA1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OB2').
+compute adrg_OB2=1.
+ELSE.
+compute adrg_OB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EV1').
+compute adrg_EV1=1.
+ELSE.
+compute adrg_EV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LZ1').
+compute adrg_LZ1=1.
+ELSE.
+compute adrg_LZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QC1').
+compute adrg_QC1=1.
+ELSE.
+compute adrg_QC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GT1').
+compute adrg_GT1=1.
+ELSE.
+compute adrg_GT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KT1').
+compute adrg_KT1=1.
+ELSE.
+compute adrg_KT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IT2').
+compute adrg_IT2=1.
+ELSE.
+compute adrg_IT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CB2').
+compute adrg_CB2=1.
+ELSE.
+compute adrg_CB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FB1').
+compute adrg_FB1=1.
+ELSE.
+compute adrg_FB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NA2').
+compute adrg_NA2=1.
+ELSE.
+compute adrg_NA2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IB1').
+compute adrg_IB1=1.
+ELSE.
+compute adrg_IB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FR1').
+compute adrg_FR1=1.
+ELSE.
+compute adrg_FR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PJ1').
+compute adrg_PJ1=1.
+ELSE.
+compute adrg_PJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OR1').
+compute adrg_OR1=1.
+ELSE.
+compute adrg_OR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FD4').
+compute adrg_FD4=1.
+ELSE.
+compute adrg_FD4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BR1').
+compute adrg_BR1=1.
+ELSE.
+compute adrg_BR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LR1').
+compute adrg_LR1=1.
+ELSE.
+compute adrg_LR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FR2').
+compute adrg_FR2=1.
+ELSE.
+compute adrg_FR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QU1').
+compute adrg_QU1=1.
+ELSE.
+compute adrg_QU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KS1').
+compute adrg_KS1=1.
+ELSE.
+compute adrg_KS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BW1').
+compute adrg_BW1=1.
+ELSE.
+compute adrg_BW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DE2').
+compute adrg_DE2=1.
+ELSE.
+compute adrg_DE2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IR3').
+compute adrg_IR3=1.
+ELSE.
+compute adrg_IR3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ID2').
+compute adrg_ID2=1.
+ELSE.
+compute adrg_ID2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TT1').
+compute adrg_TT1=1.
+ELSE.
+compute adrg_TT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CV1').
+compute adrg_CV1=1.
+ELSE.
+compute adrg_CV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MJ1').
+compute adrg_MJ1=1.
+ELSE.
+compute adrg_MJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DC2').
+compute adrg_DC2=1.
+ELSE.
+compute adrg_DC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IC1').
+compute adrg_IC1=1.
+ELSE.
+compute adrg_IC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VS1').
+compute adrg_VS1=1.
+ELSE.
+compute adrg_VS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GD2').
+compute adrg_GD2=1.
+ELSE.
+compute adrg_GD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OZ1').
+compute adrg_OZ1=1.
+ELSE.
+compute adrg_OZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='AG1').
+compute adrg_AG1=1.
+ELSE.
+compute adrg_AG1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RR1').
+compute adrg_RR1=1.
+ELSE.
+compute adrg_RR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IX1').
+compute adrg_IX1=1.
+ELSE.
+compute adrg_IX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RV1').
+compute adrg_RV1=1.
+ELSE.
+compute adrg_RV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IF1').
+compute adrg_IF1=1.
+ELSE.
+compute adrg_IF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='SR1').
+compute adrg_SR1=1.
+ELSE.
+compute adrg_SR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GK1').
+compute adrg_GK1=1.
+ELSE.
+compute adrg_GK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RA2').
+compute adrg_RA2=1.
+ELSE.
+compute adrg_RA2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FM1').
+compute adrg_FM1=1.
+ELSE.
+compute adrg_FM1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KZ1').
+compute adrg_KZ1=1.
+ELSE.
+compute adrg_KZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BS1').
+compute adrg_BS1=1.
+ELSE.
+compute adrg_BS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CS1').
+compute adrg_CS1=1.
+ELSE.
+compute adrg_CS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GU1').
+compute adrg_GU1=1.
+ELSE.
+compute adrg_GU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DR1').
+compute adrg_DR1=1.
+ELSE.
+compute adrg_DR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HS2').
+compute adrg_HS2=1.
+ELSE.
+compute adrg_HS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RC1').
+compute adrg_RC1=1.
+ELSE.
+compute adrg_RC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OE1').
+compute adrg_OE1=1.
+ELSE.
+compute adrg_OE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JV4').
+compute adrg_JV4=1.
+ELSE.
+compute adrg_JV4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IR4').
+compute adrg_IR4=1.
+ELSE.
+compute adrg_IR4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FT2').
+compute adrg_FT2=1.
+ELSE.
+compute adrg_FT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RT1').
+compute adrg_RT1=1.
+ELSE.
+compute adrg_RT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IU1').
+compute adrg_IU1=1.
+ELSE.
+compute adrg_IU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HC3').
+compute adrg_HC3=1.
+ELSE.
+compute adrg_HC3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BY1').
+compute adrg_BY1=1.
+ELSE.
+compute adrg_BY1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JJ1').
+compute adrg_JJ1=1.
+ELSE.
+compute adrg_JJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OT1').
+compute adrg_OT1=1.
+ELSE.
+compute adrg_OT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XJ1').
+compute adrg_XJ1=1.
+ELSE.
+compute adrg_XJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FV3').
+compute adrg_FV3=1.
+ELSE.
+compute adrg_FV3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FM3').
+compute adrg_FM3=1.
+ELSE.
+compute adrg_FM3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='WJ1').
+compute adrg_WJ1=1.
+ELSE.
+compute adrg_WJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ST1').
+compute adrg_ST1=1.
+ELSE.
+compute adrg_ST1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BS2').
+compute adrg_BS2=1.
+ELSE.
+compute adrg_BS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KU1').
+compute adrg_KU1=1.
+ELSE.
+compute adrg_KU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='AE1').
+compute adrg_AE1=1.
+ELSE.
+compute adrg_AE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FW3').
+compute adrg_FW3=1.
+ELSE.
+compute adrg_FW3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DG2').
+compute adrg_DG2=1.
+ELSE.
+compute adrg_DG2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HC4').
+compute adrg_HC4=1.
+ELSE.
+compute adrg_HC4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GU2').
+compute adrg_GU2=1.
+ELSE.
+compute adrg_GU2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TT2').
+compute adrg_TT2=1.
+ELSE.
+compute adrg_TT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EK1').
+compute adrg_EK1=1.
+ELSE.
+compute adrg_EK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GC2').
+compute adrg_GC2=1.
+ELSE.
+compute adrg_GC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BU1').
+compute adrg_BU1=1.
+ELSE.
+compute adrg_BU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GB2').
+compute adrg_GB2=1.
+ELSE.
+compute adrg_GB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OU1').
+compute adrg_OU1=1.
+ELSE.
+compute adrg_OU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KE1').
+compute adrg_KE1=1.
+ELSE.
+compute adrg_KE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ZC1').
+compute adrg_ZC1=1.
+ELSE.
+compute adrg_ZC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HZ2').
+compute adrg_HZ2=1.
+ELSE.
+compute adrg_HZ2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BJ1').
+compute adrg_BJ1=1.
+ELSE.
+compute adrg_BJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JB2').
+compute adrg_JB2=1.
+ELSE.
+compute adrg_JB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GK2').
+compute adrg_GK2=1.
+ELSE.
+compute adrg_GK2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KC1').
+compute adrg_KC1=1.
+ELSE.
+compute adrg_KC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FB3').
+compute adrg_FB3=1.
+ELSE.
+compute adrg_FB3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FE3').
+compute adrg_FE3=1.
+ELSE.
+compute adrg_FE3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RU1').
+compute adrg_RU1=1.
+ELSE.
+compute adrg_RU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KD1').
+compute adrg_KD1=1.
+ELSE.
+compute adrg_KD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PT2').
+compute adrg_PT2=1.
+ELSE.
+compute adrg_PT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TR1').
+compute adrg_TR1=1.
+ELSE.
+compute adrg_TR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BX2').
+compute adrg_BX2=1.
+ELSE.
+compute adrg_BX2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JV5').
+compute adrg_JV5=1.
+ELSE.
+compute adrg_JV5=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GC1').
+compute adrg_GC1=1.
+ELSE.
+compute adrg_GC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GD1').
+compute adrg_GD1=1.
+ELSE.
+compute adrg_GD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EV2').
+compute adrg_EV2=1.
+ELSE.
+compute adrg_EV2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GE1').
+compute adrg_GE1=1.
+ELSE.
+compute adrg_GE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XT3').
+compute adrg_XT3=1.
+ELSE.
+compute adrg_XT3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IB2').
+compute adrg_IB2=1.
+ELSE.
+compute adrg_IB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RW1').
+compute adrg_RW1=1.
+ELSE.
+compute adrg_RW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RU2').
+compute adrg_RU2=1.
+ELSE.
+compute adrg_RU2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IZ1').
+compute adrg_IZ1=1.
+ELSE.
+compute adrg_IZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BC2').
+compute adrg_BC2=1.
+ELSE.
+compute adrg_BC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HD4').
+compute adrg_HD4=1.
+ELSE.
+compute adrg_HD4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BM1').
+compute adrg_BM1=1.
+ELSE.
+compute adrg_BM1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GB3').
+compute adrg_GB3=1.
+ELSE.
+compute adrg_GB3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XT1').
+compute adrg_XT1=1.
+ELSE.
+compute adrg_XT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IH1').
+compute adrg_IH1=1.
+ELSE.
+compute adrg_IH1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FE2').
+compute adrg_FE2=1.
+ELSE.
+compute adrg_FE2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GZ1').
+compute adrg_GZ1=1.
+ELSE.
+compute adrg_GZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EW2').
+compute adrg_EW2=1.
+ELSE.
+compute adrg_EW2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FT1').
+compute adrg_FT1=1.
+ELSE.
+compute adrg_FT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GB1').
+compute adrg_GB1=1.
+ELSE.
+compute adrg_GB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LG1').
+compute adrg_LG1=1.
+ELSE.
+compute adrg_LG1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JV3').
+compute adrg_JV3=1.
+ELSE.
+compute adrg_JV3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FL1').
+compute adrg_FL1=1.
+ELSE.
+compute adrg_FL1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RS1').
+compute adrg_RS1=1.
+ELSE.
+compute adrg_RS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='SZ1').
+compute adrg_SZ1=1.
+ELSE.
+compute adrg_SZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JR1').
+compute adrg_JR1=1.
+ELSE.
+compute adrg_JR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FP1').
+compute adrg_FP1=1.
+ELSE.
+compute adrg_FP1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PR1').
+compute adrg_PR1=1.
+ELSE.
+compute adrg_PR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LU1').
+compute adrg_LU1=1.
+ELSE.
+compute adrg_LU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HJ1').
+compute adrg_HJ1=1.
+ELSE.
+compute adrg_HJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HT1').
+compute adrg_HT1=1.
+ELSE.
+compute adrg_HT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CC1').
+compute adrg_CC1=1.
+ELSE.
+compute adrg_CC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NA1').
+compute adrg_NA1=1.
+ELSE.
+compute adrg_NA1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='WR1').
+compute adrg_WR1=1.
+ELSE.
+compute adrg_WR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HV1').
+compute adrg_HV1=1.
+ELSE.
+compute adrg_HV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FB4').
+compute adrg_FB4=1.
+ELSE.
+compute adrg_FB4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PC1').
+compute adrg_PC1=1.
+ELSE.
+compute adrg_PC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DJ1').
+compute adrg_DJ1=1.
+ELSE.
+compute adrg_DJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BU2').
+compute adrg_BU2=1.
+ELSE.
+compute adrg_BU2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BV2').
+compute adrg_BV2=1.
+ELSE.
+compute adrg_BV2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IU3').
+compute adrg_IU3=1.
+ELSE.
+compute adrg_IU3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JV2').
+compute adrg_JV2=1.
+ELSE.
+compute adrg_JV2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='WB2').
+compute adrg_WB2=1.
+ELSE.
+compute adrg_WB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GW1').
+compute adrg_GW1=1.
+ELSE.
+compute adrg_GW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XZ1').
+compute adrg_XZ1=1.
+ELSE.
+compute adrg_XZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IH3').
+compute adrg_IH3=1.
+ELSE.
+compute adrg_IH3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HZ1').
+compute adrg_HZ1=1.
+ELSE.
+compute adrg_HZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FN1').
+compute adrg_FN1=1.
+ELSE.
+compute adrg_FN1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NB1').
+compute adrg_NB1=1.
+ELSE.
+compute adrg_NB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CB3').
+compute adrg_CB3=1.
+ELSE.
+compute adrg_CB3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FF4').
+compute adrg_FF4=1.
+ELSE.
+compute adrg_FF4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CB4').
+compute adrg_CB4=1.
+ELSE.
+compute adrg_CB4=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RA3').
+compute adrg_RA3=1.
+ELSE.
+compute adrg_RA3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JV1').
+compute adrg_JV1=1.
+ELSE.
+compute adrg_JV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EX2').
+compute adrg_EX2=1.
+ELSE.
+compute adrg_EX2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IE1').
+compute adrg_IE1=1.
+ELSE.
+compute adrg_IE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FN3').
+compute adrg_FN3=1.
+ELSE.
+compute adrg_FN3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VZ1').
+compute adrg_VZ1=1.
+ELSE.
+compute adrg_VZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VB1').
+compute adrg_VB1=1.
+ELSE.
+compute adrg_VB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DV1').
+compute adrg_DV1=1.
+ELSE.
+compute adrg_DV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LS2').
+compute adrg_LS2=1.
+ELSE.
+compute adrg_LS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HT2').
+compute adrg_HT2=1.
+ELSE.
+compute adrg_HT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FD3').
+compute adrg_FD3=1.
+ELSE.
+compute adrg_FD3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LD1').
+compute adrg_LD1=1.
+ELSE.
+compute adrg_LD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EJ1').
+compute adrg_EJ1=1.
+ELSE.
+compute adrg_EJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='OC1').
+compute adrg_OC1=1.
+ELSE.
+compute adrg_OC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EX1').
+compute adrg_EX1=1.
+ELSE.
+compute adrg_EX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='QS1').
+compute adrg_QS1=1.
+ELSE.
+compute adrg_QS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HK2').
+compute adrg_HK2=1.
+ELSE.
+compute adrg_HK2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ZB1').
+compute adrg_ZB1=1.
+ELSE.
+compute adrg_ZB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BY2').
+compute adrg_BY2=1.
+ELSE.
+compute adrg_BY2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EW1').
+compute adrg_EW1=1.
+ELSE.
+compute adrg_EW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TS2').
+compute adrg_TS2=1.
+ELSE.
+compute adrg_TS2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FQ1').
+compute adrg_FQ1=1.
+ELSE.
+compute adrg_FQ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HZ3').
+compute adrg_HZ3=1.
+ELSE.
+compute adrg_HZ3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DZ1').
+compute adrg_DZ1=1.
+ELSE.
+compute adrg_DZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BR2').
+compute adrg_BR2=1.
+ELSE.
+compute adrg_BR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PR2').
+compute adrg_PR2=1.
+ELSE.
+compute adrg_PR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GC3').
+compute adrg_GC3=1.
+ELSE.
+compute adrg_GC3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JA1').
+compute adrg_JA1=1.
+ELSE.
+compute adrg_JA1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IH2').
+compute adrg_IH2=1.
+ELSE.
+compute adrg_IH2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HD2').
+compute adrg_HD2=1.
+ELSE.
+compute adrg_HD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='PV1').
+compute adrg_PV1=1.
+ELSE.
+compute adrg_PV1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JB1').
+compute adrg_JB1=1.
+ELSE.
+compute adrg_JB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ZR2').
+compute adrg_ZR2=1.
+ELSE.
+compute adrg_ZR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ER3').
+compute adrg_ER3=1.
+ELSE.
+compute adrg_ER3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JS1').
+compute adrg_JS1=1.
+ELSE.
+compute adrg_JS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DS1').
+compute adrg_DS1=1.
+ELSE.
+compute adrg_DS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FU2').
+compute adrg_FU2=1.
+ELSE.
+compute adrg_FU2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DT2').
+compute adrg_DT2=1.
+ELSE.
+compute adrg_DT2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DU1').
+compute adrg_DU1=1.
+ELSE.
+compute adrg_DU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BW2').
+compute adrg_BW2=1.
+ELSE.
+compute adrg_BW2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ZK1').
+compute adrg_ZK1=1.
+ELSE.
+compute adrg_ZK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FV2').
+compute adrg_FV2=1.
+ELSE.
+compute adrg_FV2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FU1').
+compute adrg_FU1=1.
+ELSE.
+compute adrg_FU1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IU2').
+compute adrg_IU2=1.
+ELSE.
+compute adrg_IU2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HV2').
+compute adrg_HV2=1.
+ELSE.
+compute adrg_HV2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BD1').
+compute adrg_BD1=1.
+ELSE.
+compute adrg_BD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FD1').
+compute adrg_FD1=1.
+ELSE.
+compute adrg_FD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BB2').
+compute adrg_BB2=1.
+ELSE.
+compute adrg_BB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MC1').
+compute adrg_MC1=1.
+ELSE.
+compute adrg_MC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IT1').
+compute adrg_IT1=1.
+ELSE.
+compute adrg_IT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='XS1').
+compute adrg_XS1=1.
+ELSE.
+compute adrg_XS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LF1').
+compute adrg_LF1=1.
+ELSE.
+compute adrg_LF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='EC2').
+compute adrg_EC2=1.
+ELSE.
+compute adrg_EC2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FB2').
+compute adrg_FB2=1.
+ELSE.
+compute adrg_FB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='CX1').
+compute adrg_CX1=1.
+ELSE.
+compute adrg_CX1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GS1').
+compute adrg_GS1=1.
+ELSE.
+compute adrg_GS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ET1').
+compute adrg_ET1=1.
+ELSE.
+compute adrg_ET1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='NZ1').
+compute adrg_NZ1=1.
+ELSE.
+compute adrg_NZ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RR2').
+compute adrg_RR2=1.
+ELSE.
+compute adrg_RR2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JE1').
+compute adrg_JE1=1.
+ELSE.
+compute adrg_JE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BL1').
+compute adrg_BL1=1.
+ELSE.
+compute adrg_BL1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ES1').
+compute adrg_ES1=1.
+ELSE.
+compute adrg_ES1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FU3').
+compute adrg_FU3=1.
+ELSE.
+compute adrg_FU3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LM1').
+compute adrg_LM1=1.
+ELSE.
+compute adrg_LM1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FF1').
+compute adrg_FF1=1.
+ELSE.
+compute adrg_FF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ZR1').
+compute adrg_ZR1=1.
+ELSE.
+compute adrg_ZR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DD2').
+compute adrg_DD2=1.
+ELSE.
+compute adrg_DD2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FE1').
+compute adrg_FE1=1.
+ELSE.
+compute adrg_FE1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='LW1').
+compute adrg_LW1=1.
+ELSE.
+compute adrg_LW1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='ND1').
+compute adrg_ND1=1.
+ELSE.
+compute adrg_ND1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DD1').
+compute adrg_DD1=1.
+ELSE.
+compute adrg_DD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='JD1').
+compute adrg_JD1=1.
+ELSE.
+compute adrg_JD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BC1').
+compute adrg_BC1=1.
+ELSE.
+compute adrg_BC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KB1').
+compute adrg_KB1=1.
+ELSE.
+compute adrg_KB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HS1').
+compute adrg_HS1=1.
+ELSE.
+compute adrg_HS1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DB2').
+compute adrg_DB2=1.
+ELSE.
+compute adrg_DB2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HL1').
+compute adrg_HL1=1.
+ELSE.
+compute adrg_HL1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IR1').
+compute adrg_IR1=1.
+ELSE.
+compute adrg_IR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='VC1').
+compute adrg_VC1=1.
+ELSE.
+compute adrg_VC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DF1').
+compute adrg_DF1=1.
+ELSE.
+compute adrg_DF1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='KJ1').
+compute adrg_KJ1=1.
+ELSE.
+compute adrg_KJ1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='IK1').
+compute adrg_IK1=1.
+ELSE.
+compute adrg_IK1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FQ3').
+compute adrg_FQ3=1.
+ELSE.
+compute adrg_FQ3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BU3').
+compute adrg_BU3=1.
+ELSE.
+compute adrg_BU3=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='MR1').
+compute adrg_MR1=1.
+ELSE.
+compute adrg_MR1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TB1').
+compute adrg_TB1=1.
+ELSE.
+compute adrg_TB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='HB1').
+compute adrg_HB1=1.
+ELSE.
+compute adrg_HB1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='RD1').
+compute adrg_RD1=1.
+ELSE.
+compute adrg_RD1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='BT1').
+compute adrg_BT1=1.
+ELSE.
+compute adrg_BT1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='DC1').
+compute adrg_DC1=1.
+ELSE.
+compute adrg_DC1=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='GV2').
+compute adrg_GV2=1.
+ELSE.
+compute adrg_GV2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='FN2').
+compute adrg_FN2=1.
+ELSE.
+compute adrg_FN2=0.
+END IF.
+EXECUTE.
+
+DO IF(adrg='TV1').
+compute adrg_TV1=1.
+ELSE.
+compute adrg_TV1=0.
+END IF.
+EXECUTE.
+
