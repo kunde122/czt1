@@ -119,7 +119,7 @@ pathlib2==2.2.0
 patsy==0.4.1
 pep8==1.7.0
 pickleshare==0.7.4
-Pillow==6.0.0
+Pillow==8.2.0
 plac==0.9.6
 ply==3.9
 preshed==2.0.1
