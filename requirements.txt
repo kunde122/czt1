@@ -90,7 +90,7 @@ MarkupSafe==0.23
 matplotlib==2.0.0
 menuinst==1.4.4
 minepy==1.2.4
-mistune==0.7.3
+mistune==2.0.3
 mock==3.0.5
 monotonic==1.5
 mpmath==0.19
